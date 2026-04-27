@@ -1,0 +1,53 @@
+﻿{
+  "ModuleName": "Sortownia Wiadomości",
+  "Challenges": [
+    {
+      "QuestionText": "OD: support@stcam-community.com\nTEMAT: ALARM: Twój profil Steam zostanie zablokowany!\n\nWykryliśmy podejrzaną aktywność na Twoim koncie. Masz 24 godziny na weryfikację tożsamości, inaczej stracisz dostęp do wszystkich gier.\n\n[Zweryfikuj teraz - kliknij tutaj]",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": false,
+      "Explanation": "SCAM! Spójrz na nadawcę: 'stcam' zamiast 'steam'. Presja czasu (24h) i groźba blokady to typowe techniki manipulacji."
+    },
+    {
+      "QuestionText": "OD: powiadomienia@liburnus.edu.pl\nTEMAT: Przypomnienie o zwrocie książek\n\nCześć,\nPrzypominamy, że termin zwrotu lektury 'Lalka' mija w najbliższy piątek. Biblioteka jest czynna do 15:00.\n\nPozdrawiamy,\nBiblioteka Szkolna",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": true,
+      "Explanation": "BEZPIECZNE. Wiadomość informacyjna ze szkolnej domeny (.edu.pl). Nie ma linków ani próby wyłudzenia hasła."
+    },
+    {
+      "QuestionText": "OD: platnosci@nctflix-secure.net\nTEMAT: Twoja subskrypcja wygasła\n\nNie udało nam się pobrać opłaty za ten miesiąc. Twoje konto zostało zawieszone. Zaktualizuj dane karty kredytowej natychmiast, aby nie stracić historii oglądania.\n\n-> ZAKTUALIZUJ PŁATNOŚĆ <-",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": false,
+      "Explanation": "SCAM! Zwróć uwagę na domenę: 'nctflix' zamiast 'netflix'. Oszuści często straszą utratą konta, żeby wyłudzić numer karty."
+    },
+    {
+      "QuestionText": "OD: discord-gift@free-nitro.xyz\nTEMAT: Odbierz darmowe Nitro na rok!\n\nGratulacje! Zostałeś wylosowany. Kliknij w link i zaloguj się swoim kontem Steam, aby odebrać darmowe Discord Nitro.\n\nOferta ważna tylko 10 minut!",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": false,
+      "Explanation": "SCAM! Nikt nie rozdaje drogich subskrypcji za darmo. Domena .xyz jest podejrzana, a prośba o logowanie Steamem to próba kradzieży konta."
+    },
+    {
+      "QuestionText": "OD: rekrutacja@lokalna-firma.pl\nTEMAT: Odpowiedź na Twoje zgłoszenie\n\nDzień dobry,\nDziękujemy za przesłanie CV. Chcielibyśmy zaprosić Cię na rozmowę kwalifikacyjną w środę o 10:00. Proszę o potwierdzenie obecności.\n\nPozdrawiam,\nAnna Kowalska",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": true,
+      "Explanation": "BEZPIECZNE. Normalna korespondencja biznesowa. Konkretne informacje, brak podejrzanych linków i załączników."
+    },
+    {
+      "QuestionText": "OD: kurier@poczta-polska-sledzenie24.info\nTEMAT: Twoja paczka została wstrzymana\n\nNiedopłata 2,50 zł do przesyłki. Paczka nie zostanie dostarczona do czasu uregulowania należności. Kliknij, aby dopłacić szybkim przelewem.",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": false,
+      "Explanation": "SCAM! Oszuści często proszą o małe kwoty (dopłata do paczki), żeby wykraść dane logowania do banku. Sprawdź adres strony!"
+    },
+    {
+      "QuestionText": "OD: security@facebook-meta-support.com\nTEMAT: Naruszenie praw autorskich\n\nTwoja strona narusza standardy społeczności. Jeśli nie odwołasz się w ciągu 12 godzin, Twoje konto zostanie trwale usunięte. \n\n[Formularz odwoławczy]",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": false,
+      "Explanation": "SCAM! Facebook/Meta powiadamia o takich rzeczach wewnątrz aplikacji, a nie z dziwnych adresów mailowych. To atak na influencerów/twórców."
+    },
+    {
+      "QuestionText": "OD: no-reply@youtube.com\nTEMAT: Nowy subskrybent na Twoim kanale\n\nUżytkownik 'GameMaster2020' zasubskrybował Twój kanał.\n\nGratulacje!\nZespół YouTube",
+      "ImagePath": "Assets/phishing.png",
+      "IsSafe": true,
+      "Explanation": "BEZPIECZNE. Automatyczne powiadomienie z oficjalnej domeny youtube.com. Nie wymaga żadnej akcji."
+    }
+  ]
+}
