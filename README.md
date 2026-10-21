@@ -24,8 +24,3 @@ The application is built with a strong emphasis on clean code and separation of 
 * **Data Handling:** `Newtonsoft.Json` for serialization/deserialization.
 * **UI/UX:** Native XAML with custom Converters (`IValueConverter`) and dynamic Data Binding.
 
-## ⚙️ Setup & Installation
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/](https://github.com/)[YourUsername]/CyberGuard-WPF.git
